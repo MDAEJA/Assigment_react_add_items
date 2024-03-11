@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(234, 174, 139);
+}
+.main-container{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.text-div{
+  padding: 10px 10px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.add-button{
+  /* width: 20%; */
+  padding: 10px 10px;
+  text-align: center;
+  background-color: orangered;
+  color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.course-div{
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 10px;
+  gap: 10px;
+  width: 40%;
+  box-shadow: 5px 5px rgb(236, 81, 20);
+  border-radius: 10px;
+  background-color: rgba(224, 112, 112, 0.678);
+}
+.increment-button{
+padding: 6px 6px;
+color: white;
+background-color: rgb(236, 81, 20);
+font-style: italic;
+border-radius: 10px;
+cursor: pointer;
+}
+.decrement-button{
+  padding: 6px 6px;
+color: white;
+background-color: rgb(236, 81, 20);
+font-style: italic;
+border-radius: 10px;
+cursor: pointer;
+}
+.course-style{
+  background-color:rgb(236, 81, 20);
+  color: white;
+  font-style: oblique;
+  padding: 5px 5px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
